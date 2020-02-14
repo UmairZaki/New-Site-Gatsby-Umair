@@ -303,42 +303,6 @@ const IndexPage = () => (
       <section id="one" className="wrapper spotlight style4">
         <div className="inner">
           <a  className="image">
-            <img src={pic2} alt="" />
-          </a>
-          <div className="content">
-          <h2 className="major">Artificial Intelligence Projects</h2>
-            <h4>Deep Learning</h4>
-              <p>I trained the model with all following aspects:</p>
-              <ul>
-                <li>Baseline Neural Network (Import Libraries, Load Data, Prepare partitions(train, test and validation data), label encoding and One hot encoding if needed, Make Model, Make Compiler, Train Model, Evaluate Model and Save Model)</li>
-                <li>Baseline Model With Data Standarization</li>
-                <li>Evaluate a Smaller Network (Small Dense Layers)</li>
-                <li>Evaluate a very Smaller Network that Underfit</li>
-                <li>Evaluate a larger Network (Large Dense Layers)</li>
-                <li>Evaluate a very Larger Network that Overfit</li>
-                <li>Tuning the Model (Change Optimizer and number of Epochs)</li>
-                <li>Visualization of Epochs(Accuracy and Loss) through Matplotlib</li>
-                <li>Use Dropout and Weight Regularization for best results</li>
-              </ul>
-                    
-                    <h3>1- Binary Classification Sonar Dataset</h3>
-                    <p>to see my code <a href="https://github.com/UmairZaki/Deep-Learning-Sonar-Dataset" target = "_blank"> Click Here</a></p>
-                    <h3>2- Multiclass Classification Iris Dataset</h3>
-                    <p>to see my code <a href="https://github.com/UmairZaki/Deep-Learning-Iris-Dataset" target = "_blank"> Click Here</a></p>
-                    <h3>3- Regression Housing Dataset</h3>
-                    <p>to see my code <a href="https://github.com/UmairZaki/Deep-Learning-Housing-Dataset" target = "_blank"> Click Here</a></p>
-                    <h3>4- Save & Load Keras Model</h3>
-                    <p>to see my code <a href="https://github.com/UmairZaki/Save-Load-Keras-Model" target = "_blank"> Click Here</a></p>
-                    <h3>5- Face Detection with Keras MTCNN</h3>
-                    <p>to see my code <a href="https://github.com/UmairZaki/Face-Detection-with-Keras-MTCNN" target = "_blank"> Click Here</a></p>
-            
-          </div>
-        </div>
-      </section>
-
-      <section id="two" className="wrapper alt spotlight style3">
-        <div className="inner">
-          <a  className="image">
             <img src={pic1} alt="" />
           </a>
           <div className="content">
@@ -367,6 +331,44 @@ const IndexPage = () => (
               <h3>10- Piaic For Learning</h3>
               <p className="b">to see my code <a href="https://peaceful-goldwasser-23267b.netlify.com/"  target = "_blank"> Click Here</a></p>
            
+          
+            
+          </div>
+        </div>
+      </section>
+
+      <section id="two" className="wrapper alt spotlight style3">
+        <div className="inner">
+          <a  className="image">
+            <img src={pic2} alt="" />
+          </a>
+          <div className="content">
+          <h2 className="major">Artificial Intelligence Projects</h2>
+            <h4>Deep Learning</h4>
+              <p>I trained the model with all following aspects:</p>
+              <ul>
+                <li>Baseline Neural Network (Import Libraries, Load Data, Prepare partitions(train, test and validation data), label encoding and One hot encoding if needed, Make Model, Make Compiler, Train Model, Evaluate Model and Save Model)</li>
+                <li>Baseline Model With Data Standarization</li>
+                <li>Evaluate a Smaller Network (Small Dense Layers)</li>
+                <li>Evaluate a very Smaller Network that Underfit</li>
+                <li>Evaluate a larger Network (Large Dense Layers)</li>
+                <li>Evaluate a very Larger Network that Overfit</li>
+                <li>Tuning the Model (Change Optimizer and number of Epochs)</li>
+                <li>Visualization of Epochs(Accuracy and Loss) through Matplotlib</li>
+                <li>Use Dropout and Weight Regularization for best results</li>
+              </ul>
+                    
+                    <h3>1- Binary Classification Sonar Dataset</h3>
+                    <p>to see my code <a href="https://github.com/UmairZaki/Deep-Learning-Sonar-Dataset" target = "_blank"> Click Here</a></p>
+                    <h3>2- Multiclass Classification Iris Dataset</h3>
+                    <p>to see my code <a href="https://github.com/UmairZaki/Deep-Learning-Iris-Dataset" target = "_blank"> Click Here</a></p>
+                    <h3>3- Regression Housing Dataset</h3>
+                    <p>to see my code <a href="https://github.com/UmairZaki/Deep-Learning-Housing-Dataset" target = "_blank"> Click Here</a></p>
+                    <h3>4- Save & Load Keras Model</h3>
+                    <p>to see my code <a href="https://github.com/UmairZaki/Save-Load-Keras-Model" target = "_blank"> Click Here</a></p>
+                    <h3>5- Face Detection with Keras MTCNN</h3>
+                    <p>to see my code <a href="https://github.com/UmairZaki/Face-Detection-with-Keras-MTCNN" target = "_blank"> Click Here</a></p>
+         
           </div>
         </div>
       </section>
