@@ -88,7 +88,8 @@
   @include breakpoint('<=medium') {
 		@include padding(3em, 1em);
         grid-template-columns: auto auto;
-	} 
+  }
+  
 }
 .f{
   display: grid;
@@ -101,5 +102,19 @@
   }
   a{
     font-size: 2em;
+  }
+}
+.l{
+  padding: 4em 3em;
+  @include breakpoint('<=small') {
+    @include padding(3em, 1em);
+    
+  }
+}
+.k{
+  padding: 4em 3em;
+  @include breakpoint('<=small') {
+    @include padding(3em, 2em);
+    
   }
 }

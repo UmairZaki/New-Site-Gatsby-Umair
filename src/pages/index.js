@@ -74,9 +74,9 @@ const IndexPage = () => (
         </div>
       </section>
 
-      <section id="footer">
+      <section id="footer l">
       <div className="inner">
-      <h2 className="major">My Skills</h2>
+      <h2 className="major k">My Skills</h2>
       <ul className="a">
         <li >
               <span className="image">
@@ -396,14 +396,14 @@ const IndexPage = () => (
       <h2 className="major">Upwork</h2>
       <p>to see my Upwork Profile <a href="https://www.upwork.com/freelancers/~0141d6a9695a2de52a" target = "_blank"> Click Here</a></p>
          <span className="image">
-                <img src={pic39}  height="150px" width="auto"  alt="" />
+                <img src={pic39}  height="100px" width="auto"  alt="" />
               </span>
               </div>
               <div className="inner">
         <h2 className="major">Fiverr</h2>
         <p>to see my Fiverr Profile <a href="https://www.fiverr.com/users/umairjamstackai/seller_dashboard" target = "_blank"> Click Here</a></p>
         <span className="image">
-                <img src={pic41}  height="150px" width="auto"  alt="" />
+                <img src={pic41}  height="100px" width="auto"  alt="" />
               </span>
       </div>
       </section>
